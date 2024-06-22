@@ -134,8 +134,16 @@ body {
     cursor: pointer;
     border-radius: 6px;
 }
+.form-submit-btn a {
+  text-decoration: none;
+  font-family: inherit;
+    color: #717171;
+  height: 100%;
+  width: 100%;
+  font-weight: 600;
+}
 
-.form-container .form-submit-btn:hover {
+.form-container .form-submit-btn:hover, .form-submit-btn a:hover {
     background-color: #fff;
     border-color: #fff;
 }
